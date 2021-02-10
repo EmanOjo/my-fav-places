@@ -23,11 +23,11 @@ code {
   align-items: baseline;
   padding: 1em;
   margin-bottom: 2em;
-  background-color: rgb(192, 45, 26);
-  color: #fff;
+  background-color: rgb(235, 195, 64);
+  color: black;
 }
 
-.footer{
+footer{
   margin-top: 1rem;
   padding: 1rem;
   background-color: rgb(235, 195, 64);
@@ -38,15 +38,17 @@ code {
 }
 
 .content{
-  margin: 80px;
-  margin-bottom: 20x;
+  margin: 35px;
+  margin-right: 0x;
   box-sizing: border-box;
   background-color:lightgoldenrodyellow;
+  text-align: center;
+  padding: 40px
 }
 
 .imageContainer{
   text-align: center;
-  padding: 40px;
+  padding: 30px;
 }
 
 img {

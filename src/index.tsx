@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import FavPlaces from "./components"
+import {FavPlaces, Other} from "./components";
+// import {Other} from "./components"
+
 
 
 function Header() {
@@ -16,9 +18,16 @@ function Header() {
 
 
 const Footer = () => (
-  <div className="footer">
-    <p>Bottom of page</p>
-  </div>
+  <footer>
+    <Other
+    name="Matt"
+    link="https://mattsfavplaces.netlify.app/"
+    />
+    <Other
+    name="India"
+    link="https://indias-favourite-places.netlify.app/"
+    />
+  </footer>
 );
 
 

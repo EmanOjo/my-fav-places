@@ -1,6 +1,3 @@
-
-
-
 interface Places {
     name: string;
     location: string;
@@ -25,4 +22,22 @@ function FavPlaces(props: Places) {
     );
 }
 
-export default FavPlaces;
+
+interface Others {
+    name: string;
+    link: string;
+}
+
+function Other(props: Others) {
+
+    let webpage = `Find ${props.name}'s favourite places`;
+
+    return(
+        <div>
+        <p><a href={props.link}>{webpage}</a></p>
+        </div>
+    );
+}
+
+export { FavPlaces, Other }
+ 
